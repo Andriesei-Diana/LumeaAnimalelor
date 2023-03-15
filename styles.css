@@ -1,0 +1,144 @@
+:root {
+  --culoarePrimara: #198754;
+  --culoareSecundara: #f6e382;
+  --culoareTertiara: #141414;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+/* -------Navigatie meniu------- */
+
+.navbar {
+  background-color: var(--culoarePrimara);
+}
+
+.nav-link:hover {
+  font-weight: bold;
+}
+
+/* ----banner----- */
+
+.proverb {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  padding: 2.8%;
+}
+
+/* -----Mini-Icon Banner--------- */
+
+.mini-icon-banner {
+  background-color: #198754;
+}
+
+.iconite-banner {
+  color: var(--culoareSecundara);
+  font-size: 24px;
+}
+
+.text-banner {
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--culoareSecundara);
+}
+
+.banner-text {
+  color: var(--culoareSecundara);
+}
+
+/* ---------Categorii Populare------ */
+
+.categorii {
+  padding-top: 3%;
+}
+
+.title-categorii {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--culoareTertiara);
+  padding: 3%;
+}
+
+.link-imagine {
+  height: 16em;
+  display: block;
+}
+
+.animale-img {
+  height: 15em;
+}
+
+.animale-img:hover {
+  height: 16em;
+}
+
+.text-categorii {
+  text-decoration: none;
+  color: var(--culoareTertiara);
+  font-weight: 500;
+  font-size: 18px;
+}
+
+/* ---------Cumpara Pentru------- */
+
+.cumpara-img {
+  width: 10em;
+}
+
+/* ---- Sfaturi utile --- */
+
+.sfaturi {
+  background-color: var(--culoarePrimara);
+  margin-top: 4%;
+}
+
+.sfaturi-rand {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.img-sfaturi {
+  width: 10em;
+}
+
+.sfaturi-link {
+  text-decoration: none;
+  color: var(--culoareSecundara);
+}
+
+/* ----Deparazitare------ */
+
+.img-deparazitare {
+  width: 100%;
+}
+
+/* ---Slide branduri- */
+
+/* ----Footer------- */
+
+.footer-cutie {
+  background-color: var(--culoarePrimara);
+  padding-top: 2em;
+}
+
+.fraza-evidentiata {
+  color: var(--culoareSecundara);
+}
+
+.fraza {
+  color: #ffffff;
+  margin-bottom: 0;
+}
+
+.fraza a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .footer-cutie .text-justify {
+    margin-bottom: 2em;
+  }
+}

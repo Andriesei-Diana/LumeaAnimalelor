@@ -1,0 +1,74 @@
+/* ====== START Pagina Caini ====== */
+
+/* ------Imagine de inceput tip banner---- */
+
+.hr-decorativ {
+  height: 0.3em;
+  background-color: var(--culoarePrimara);
+}
+
+.imagini-caine-principal {
+  width: 15em;
+}
+
+.categorii-text {
+  text-decoration: none;
+  color: var(--culoareTertiara);
+}
+
+/* ====== Pagina Caini-Hrana ====== */
+
+.card img {
+  width: 60%;
+  height: auto;
+  object-fit: cover;
+  aspect-ratio: 2/3;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-text-wrapper .card-text {
+  margin-bottom: 0;
+}
+
+.card-text-wrapper .card-text:first-child {
+  margin-bottom: 0.5em;
+}
+
+.card-text-wrapper {
+  margin-bottom: 1.5em;
+}
+
+.card-text-wrapper:last-child {
+  margin-bottom: 0;
+}
+
+/* ====== Pagini de sfaturi ====== */
+
+/*---- Sfaturi utile--------*/
+
+.imagini-pagini-sfaturi {
+  width: 66%;
+}
+/* ======Pagina-Un mit despre pestele beta ====== */
+
+.titlu {
+  text-align: center;
+}
+
+.banner-text a {
+  color: var(--culoareSecundara);
+  text-decoration: none;
+}
+
+/* ====== Pagina-Cauzele refuzului de fan la iepuri ====== */
+
+.continut {
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+}
